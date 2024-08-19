@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+"fmt"
+"github.com/KhromeM/lcoin/za"
+)
 
 func main() {
 	fmt.Println("Buy lcoin")
+	za.RunNode()
 }
